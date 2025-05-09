@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afra Fadhma Dinata | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header dengan Navbar Sticky -->
+    <header id="header">
+        <div class="container">
+            <nav id="navbar">
+                <div class="logo">
+                    <a href="#hero">Afra<span>.</span></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="toggle-switch"></span>
+                </div>
+
+                <div class="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Afra Fadhma Dinata</h1>
+                <h2 class="fade-in delay-1">Software Developer</h2>
+                <p class="fade-in delay-2">Creating elegant digital solutions with passion and precision</p>
+                <div class="hero-buttons fade-in delay-3">
+                    <a href="#about" class="btn btn-primary">Discover More</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div class="social-icons fade-in delay-4">
+                    <a href="https://instagram.com/afrafdhma" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/Afra4509" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="img-container">
+                        <!-- Placeholder untuk foto profil -->
+                        <div class="profile-placeholder">
+                            <img src="foto/profile.jpg" alt="Afra Fadhma Dinata" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hello, I'm Afra Fadhma Dinata</h3>
+                    <p>
+                        I am a passionate software developer with a keen interest in creating efficient, elegant solutions 
+                        to complex problems. My journey in programming began with curiosity and has evolved into a 
+                        professional pursuit of excellence in software development.
+                    </p>
+                    <p>
+                        With expertise in multiple programming languages and frameworks, I enjoy the challenge of 
+                        learning new technologies and applying them to create innovative solutions. I believe in clean code, 
+                        thoughtful design, and continuous improvement.
+                    </p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-title">Email:</span>
+                            <span class="info-value">afrafadmadinata@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-title">Location:</span>
+                            <span class="info-value">Pasuruan</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>C++</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <span>R</span>
+                            </div>
+                            <h4>R</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4>CSS</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-description">Here are some of my recent works</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="foto/project1.jpg" alt="Project 1">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smada wifi prank</h3>
+                        <p>Prank wifi dan ketika murid mulai menekan tombol pada log page , akan ada suara misterius</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>Arduino</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://afra4509.github.io/PRANK-WIFI-SMADA/" class="btn btn-sm" target="_blank">View Project</a>
+                            <a href="https://github.com/Afra4509/PRANK-WIFI-SMADA" class="btn btn-sm btn-outline" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="foto/project2.jpg" alt="Project 2">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>aplikasi klasifikasi gorengan</h3>
+                        <p>Teknologi tensorflow membuat kasir bisa mengklasifikasi gambar lalu mengeluarkan output harganya juga</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://aplikasi-klasifikasi-gorengan.streamlit.app/" class="btn btn-sm" target="_blank">View Project</a>
+                            <a href="https://github.com/Afra4509/aplikasi-klasifikasi-gorengan" class="btn btn-sm btn-outline" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="foto/project3.jpg" alt="Project 3">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kalkulator Termodinamika</h3>
+                        <p>Aplikasi ini bertujuan untuk menghitung atau sebagai kalkulator fisika yaitu termodinamika</p>
+                        <div class="project-tags">
+                            <span>R</span>
+                            <span>Statistics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://afra1502.shinyapps.io/fisikasenopati/" class="btn btn-sm" target="_blank">View Project</a>
+                            <a href="https://github.com/Afra4509/termodinamika" class="btn btn-sm btn-outline" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="foto/project4.jpg" alt="Project 4">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cek follower</h3>
+                        <p>Web ini digunakan untuk membandingkan siapa saja yang tidak memfollow balik instagram kita</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="https://afra4509.github.io/CekFollower/" class="btn btn-sm" target="_blank">View Project</a>
+                            <a href="https://github.com/Afra4509/CekFollower" class="btn btn-sm btn-outline" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="image-container">
+                            <img src="foto/project5.jpg" alt="Project 5">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Shift Chyper</h3>
+                        <p>Web ini sebagai decrypt juga encrypt kode shift Chyper serta bruteforce</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://afra4509.github.io/afrachiper/" class="btn btn-sm" target="_blank">View Project</a>
+                            <a href="hhttps://github.com/Afra4509/afrachiper" class="btn btn-sm btn-outline" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>afrafadmadinata@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Pasuruan</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Social Media</h3>
+                        <div class="social-links">
+                            <a href="https://instagram.com/afrafdhma" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>@afrafdhma</span>
+                            </a>
+                            <a href="https://github.com/Afra4509" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>Afra4509</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#hero">Afra<span>.</span></a>
+                </div>
+                <p class="copyright">© 2025 Afra Fadhma Dinata. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/afrafdhma" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/Afra4509" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
